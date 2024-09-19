@@ -1,5 +1,6 @@
-for i in range(1,11,3):
-    for j in range(1,11,3):
-        if i%2 ==0:
-            pass
-    print(i)
+import calendar
+
+year = int(input("Enter the year: "))
+month = int(input("Enter the month: "))
+
+print(calendar.month(year,month))
