@@ -1,6 +1,5 @@
-import calendar
-
-year = int(input("Enter the year: "))
-month = int(input("Enter the month: "))
-
-print(calendar.month(year,month))
+l1=[1,2,3]
+l1.append(20)
+print(l1)
+list.append(l1,200)
+print(l1)
