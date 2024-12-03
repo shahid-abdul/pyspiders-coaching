@@ -17,6 +17,22 @@ lst = [5+8j,'Abdul',5.5,30,10,2.0,1+2j,20,3.5,'Tharun']
 
 # print(lst)
 # print(l1_int+l2_float+l3_complex+l4_str)
-s=[i for i in lst if isinstance(i,int)]+[i for i in lst if isinstance(i,float)]+[i for i in lst if isinstance(i,complex)]+[i for i in lst if isinstance(i,str)]
-print(s)
+# s=[i for i in lst if isinstance(i,int)]+[i for i in lst if isinstance(i,float)]+[i for i in lst if isinstance(i,complex)]+[i for i in lst if isinstance(i,str)]
+# print(s)
 
+class myclass:
+    def method(self,a):
+        print('method 1')
+        print(a)
+
+    def method(self,a,b):
+        print('method 2')
+        print(a,b ,end=" ")
+
+    def method(self,a,b,c):
+        print('method 3')
+        print(a,b,c,end=" ")
+
+m1 = myclass()
+m1.method(1,2,3)
+m1.method(1,2)
