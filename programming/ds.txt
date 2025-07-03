@@ -1,0 +1,10 @@
+Python data structures are classified into 2 types
+1. Sequential
+    - Store data in continuous location
+    - index, slicing
+    - Ex: [str - sequence of characters], range()
+
+2. Collection
+    - These are unordered
+    - Direct access to any elements
+    - Ex: [dictionary - stores in the form of key value pair]
