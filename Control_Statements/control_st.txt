@@ -1,0 +1,10 @@
+1. range(stop): ---> generate sequence of numbers
+2. range(start,stop): ---> generate sequence of numbers from 0 to stop-1 (stop number is excluded)
+3. range(start,stop,step): ---> generate sequence of numbers from start to stop with a step value.
+    --> step value should not be zero
+    --> if step value is 0 - value error
+
+Rules: 
+1. When incrementing frist number should be less than second number.
+2. When decrementing first number should be greater than second number.
+3. When start and stop values are same, That returns empty list
