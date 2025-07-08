@@ -8,3 +8,16 @@ Rules:
 1. When incrementing frist number should be less than second number.
 2. When decrementing first number should be greater than second number.
 3. When start and stop values are same, That returns empty list
+
+break and continue statements:
+    - They will alter program execution
+1. break
+    - for loop
+        break
+    exit from the code
+
+2. continue
+    - for loop inner
+        for loop outer
+            break
+        exit outer
