@@ -1,0 +1,87 @@
+1. Variables/objects are instaces of class
+
+2. Data types are considered as classes
+
+3. type() determine which class a value or variable belongs to
+
+4. isinstance() is used to check whether an object belongs to a specific class.
+
+Iterables:
+    - Any object which is navigatable.
+    - We use for loop and while loop.
+    - Ex: string, list, tuple , dictionary
+
+
+1. range(stop): ---> generate sequence of numbers
+2. range(start,stop): ---> generate sequence of numbers from 0 to stop-1 (stop number is excluded)
+3. range(start,stop,step): ---> generate sequence of numbers from start to stop with a step value.
+    --> step value should not be zero
+    --> if step value is 0 - value error
+
+Rules: 
+1. When incrementing frist number should be less than second number.
+2. When decrementing first number should be greater than second number.
+3. When start and stop values are same, That returns empty list
+
+break and continue statements:
+    - They will alter program execution
+1. break
+    - for loop
+        break
+    exit from the code
+
+2. continue
+    - for loop inner
+        for loop outer
+            break
+        exit outer
+
+
+Python data structures are classified into 2 types
+1. Sequential
+    - Store data in continuous location
+    - index, slicing
+    - Ex: [str - sequence of characters], range()
+
+2. Collection
+    - These are unordered
+    - Direct access to any elements
+    - Ex: [dictionary - stores in the form of key value pair]
+
+
+## There are three types in operators
+
+1. Based on No.of Operands
+    - Unary operator
+    - Binary operator
+    - Ternary operator
+
+2. Based on Operations
+    - Arithematical operator --> +, -, /, *, %, //, **
+    - Relational operator or Comparison operator --> ==, >, <, <=, <=, !=  
+    - Logical operator --> and, or, not
+    - Bitwise operator --> &, |, ^, >>, <<, ~
+    - Assignment operator --> =
+        - Short hand operator --> +=, -=, /=, *=, %=, //=, **=, &=, |=, ^=, >>=, <<=
+
+3. Special Operators
+    - Membership
+    - Identity
+    - Dot
+    - Slicing
+    - Decoration
+
+
+ASCII Codes:
+1. 0-9 ---> 48-57
+2. A-Z ---> 65-90
+3. a-z ---> 97-122
+
+
+Anagram:
+1. Anagram may be a word or a phrase.
+2. Rearranging of words or letters.
+3. To rearrange we use the following function.
+4. sorted() is builtin function.
+5. It will take iterable objects as an input.
+6. return type will be list of sorted characters.
