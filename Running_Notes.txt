@@ -85,3 +85,32 @@ Anagram:
 4. sorted() is builtin function.
 5. It will take iterable objects as an input.
 6. return type will be list of sorted characters.
+
+
+Functions:
+1. Python supports for Variables
+    --> L = Logical
+        - Local variables can only be used inside the function.
+    --> E = Enclosing
+        - If we declare any variable inside a inner function.
+        - We call it as enclosing variable.
+    --> G = Global
+        - We can use global variable inside any function.
+        - But we cannot change it.
+    --> B = Builtin
+
+2. Function Arguments:
+    --> Required Args or Positional Args:
+        - one to one corresponding between actual args in function calls.
+        - we cannot use more or less args.
+        - it should be match with actual args.
+    --> Default Args:
+        - Declared from right to left.
+        - Unless right most is default arg, We cannot make other args default.
+        - We will call this function with no sufficient no of args.
+        - When we have common data accross function calls, We make them as default.
+    --> Flexible Args:
+        1. non-named-variable length args:
+            - represented as *args
+        2. named-variable legth args:
+            - represented as **kwargs
